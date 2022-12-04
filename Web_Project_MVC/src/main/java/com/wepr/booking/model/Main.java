@@ -1,5 +1,7 @@
 package com.wepr.booking.model;
 
+import com.wepr.booking.dao.PlaceDAO;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
