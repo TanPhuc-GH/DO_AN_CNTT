@@ -90,6 +90,7 @@ public class UserDAO  {
     }
 
     public void insertUsers(User user) {
+        user.setIsAdmin(false);
         EntityManager em = JpaConfig.getEntityManager();
         EntityTransaction trans = em.getTransaction();
         try{
